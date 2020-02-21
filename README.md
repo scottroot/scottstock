@@ -6,4 +6,4 @@ This function takes inputs of ticker,frequency,start_date,end_date and outputs s
 ## How to install in R
 
 library(devtools)<br>
-install_github("scottroot", "scottstock")
+install_github("scottroot/scottstock")
