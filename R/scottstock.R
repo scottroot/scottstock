@@ -17,7 +17,7 @@ library(BatchGetSymbols)
 library(lubridate)
 
 
-get_stock <- function(ticker, frequency, start_date, end_date) {
+scottstock <- function(ticker, frequency, start_date, end_date) {
   first.date = date(fast_strptime(start_date, '%m-%d-%Y'))
   last.date = date(fast_strptime(end_date, '%m-%d-%Y'))
   BatchGetSymbols(tickers = ticker,
