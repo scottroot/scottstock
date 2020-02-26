@@ -1,7 +1,7 @@
 Package: scottstock
 Type: Package
 Title: Yahoo stock data wrapper of BatchGetSymbols for Finance class
-Version: 0.1.0
+Version: 1.2.0
 Author: Who wrote it
 Maintainer: The package maintainer <yourself@somewhere.net>
 Description: Pulls stock data from Yahoo Finance and then do analysis required for Finance II class
@@ -9,3 +9,5 @@ License: What license is it under?
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.0.2
+Imports: BatchGetSymbols, lubridate
+Built: R 3.6.2; ; 2020-02-26 19:18:36 UTC; windows

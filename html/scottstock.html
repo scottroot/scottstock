@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head><title>R: Yahoo stock data wrapper of BatchGetSymbols for Finance class</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+
+<table width="100%" summary="page for scottstock {scottstock}"><tr><td>scottstock {scottstock}</td><td style="text-align: right;">R Documentation</td></tr></table>
+
+<h2>Yahoo stock data wrapper of BatchGetSymbols for Finance class</h2>
+
+<h3>Description</h3>
+
+<p>Pulls stock data from Yahoo Finance and then do analysis required for Finance II class</p>
+
+
+<h3>Usage</h3>
+
+<pre>scottstock(ticker, frequency, start_date, end_date)</pre>
+
+
+<h3>Arguments</h3>
+
+<table summary="R argblock">
+<tr valign="top"><td><code>ticker</code></td>
+<td>
+<p>The stock symbol you want: &quot;MSFT&quot;, or you can specify multiple by c(&quot;MSFT&quot;, &quot;FB&quot;)</p>
+</td></tr>
+<tr valign="top"><td><code>frequency</code></td>
+<td>
+<p>The type of data you want to pull: &quot;daily&quot;, &quot;weekly&quot;, &quot;monthly&quot;, &quot;yearly&quot;</p>
+</td></tr>
+<tr valign="top"><td><code>start_date</code></td>
+<td>
+<p>The earliest date from which you want to pull data: &quot;MM-DD-YYYY&quot; surrounded by quotes</p>
+</td></tr>
+<tr valign="top"><td><code>end_date</code></td>
+<td>
+<p>The latest date from which you want to pull data: &quot;MM-DD-YYYY&quot; surrounded by quotes</p>
+</td></tr>
+</table>
+
+
+<h3>References</h3>
+
+<p>This script is a wrapper for Marcelo Perlin's BatchGetSymbols package that also automates analysis and regression commands.</p>
+
+
+<h3>Examples</h3>
+
+<pre>
+## Example of function usage:
+myStock &lt;- scottstock("MSFT","monthly",
+    "01-01-2019", "12-31-2019")
+</pre>
+
+<hr /><div style="text-align: center;">[Package <em>scottstock</em> version 1.2.0 <a href="00Index.html">Index</a>]</div>
+</body></html>
