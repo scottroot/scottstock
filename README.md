@@ -2,8 +2,7 @@
 Yahoo stock data and analysis in R
 
 # Purpose
-Get Yahoo stock data into a dataframe in R more quickly and easily
-Yahoo stock data wrapper of BatchGetSymbols for students like me
+Get Yahoo stock data into a dataframe in R more quickly and easily for students
 
 # Usage
 scottstock(ticker, frequency, start_date, end_date)
