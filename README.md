@@ -8,7 +8,7 @@ Get Yahoo stock data into a dataframe in R more quickly and easily for students
 scottstock(ticker, frequency, start_date, end_date)
 
 # Arguments
-ticker	
+#### ticker	
 The stock symbol you want: "MSFT", or you can specify multiple by c("MSFT", "FB")
 
 #### frequency	
