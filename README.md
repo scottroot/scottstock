@@ -11,13 +11,13 @@ scottstock(ticker, frequency, start_date, end_date)
 ticker	
 The stock symbol you want: "MSFT", or you can specify multiple by c("MSFT", "FB")
 
-frequency	
+#### frequency	
 The type of data you want to pull: "daily", "weekly", "monthly", "yearly"
 
-start_date	
+#### start_date	
 The earliest date from which you want to pull data: "MM-DD-YYYY" surrounded by quotes
 
-end_date	
+#### end_date	
 The latest date from which you want to pull data: "MM-DD-YYYY" surrounded by quotes
 
 # References
